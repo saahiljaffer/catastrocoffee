@@ -1,0 +1,23 @@
+function on_input(self, action_id, action)
+	if action_id == hash("touch") then
+
+		local spritePos = go.get_world_position("#rat") 	-- getting my go position
+		local mouseX = action.x  -- getting mouse position
+		local mouseY = action.y
+		print(mouseX)
+		-- print mouseY
+		local rightBoundary = spritePos.x - 200   --200 is half the width of my go
+		local leftBoundary = spritePos.x + 200
+		local upperBoundary = spritePos.y + 200
+		local downBoundary = spritePos.y - 200
+		print(rightBoundary)
+		print(leftBoundary)
+
+		if mouseX >= rightBoundary and mouseX <= leftBoundary and mouseY >= downBoundary and mouseY <= upperBoundary then
+			print("clicked")
+		else
+			print("outside")
+		end
+
+	end
+end

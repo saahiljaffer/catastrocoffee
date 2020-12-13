@@ -1,0 +1,16 @@
+-- / may need some debugging
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	self.message = ""
+end
+
+function on_input(self, action_id, action)
+	local pos = vmath.vector3()
+	if action_id == hash("touch") then
+		-- label.set_text("#speech", "hello")
+		-- self.message = print("You have found a clue- this coffee has been poisoned. What does the character have to say about this?")
+	else
+		-- print("Keep looking!")
+	end
+end	
