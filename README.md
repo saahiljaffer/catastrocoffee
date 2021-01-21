@@ -44,3 +44,4 @@
        The main end goal of our team regarding Catastro-Coffee is to improve it enough to deem it enough to publish on the web and App Store for people to play for free. 
        A short-term goal that we have is considering using the game in a pep rally that is coming up in the next few weeks, so we hope to have completed all of the major improvements by then. 
        Just imagine how cool it would be for your school to be playing a game that you coded. It would be catastro-coffic in the best way possible.
+       
